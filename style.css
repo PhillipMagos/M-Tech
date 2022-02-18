@@ -1,14 +1,16 @@
 
-
-.head {
+/*
+.header {
   background-color: rgb(67, 98, 122);
   height: 100px;
   width: 100%;
 }
+*/
 #mtec {
   background-color: grey;
   height: 100px;
 }
+/*
 nav {
   background-color: rgb(67, 98, 122);
   position: fixed;
@@ -17,6 +19,7 @@ nav {
   width: 100%;
   display: inline;
 }
+*/
 .class1 {
   display: inline;
   font-size: 20px;
