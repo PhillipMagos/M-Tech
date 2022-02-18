@@ -1,0 +1,51 @@
+
+
+.head {
+  background-color: rgb(67, 98, 122);
+  height: 100px;
+  width: 100%;
+}
+#mtec {
+  background-color: grey;
+  height: 100px;
+}
+nav {
+  background-color: rgb(67, 98, 122);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: inline;
+}
+.class1 {
+  display: inline;
+  font-size: 20px;
+  color:rgb(58, 57, 57)
+}
+
+body {
+  background-color: whitesmoke;
+  color: rgb(58, 57, 57);
+  margin: 30px 30px 30px 30px;
+}
+.mission {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  margin-left: 35%;
+  margin-right: ;
+  margin-bottom: 20%;
+  background-color: beige;
+  border-style: solid;
+  text-align: center;
+  top: 150px;
+}
+.footer {
+  background-color: rgb(61, 60, 60);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
