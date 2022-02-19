@@ -1,14 +1,47 @@
-
+#pcs {
+  width: 100%;
+  height: auto;
+  /*opacity: 0.8;*/
+  text-align: center;
+  bottom: 0;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
 /*
 .header {
-  background-color: rgb(67, 98, 122);
-  height: 100px;
+  background-color: rgb(61, 60, 60);
+  height: 50px;
   width: 100%;
+
 }
 */
+.item1 {
+  background: rgb(7, 7, 175);
+  display: grid;
+  align-items: center;
+  width: 100%;
+  min-height: 63px;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+/*
 #mtec {
   background-color: grey;
   height: 100px;
+}
+*/
+.nav {
+  font-size: 70px;
+  min-height: 25px;
+  width: 100%;
+  background-color: rgb(61, 60, 60);
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
 }
 /*
 nav {
@@ -20,25 +53,28 @@ nav {
   display: inline;
 }
 */
-.class1 {
-  display: inline;
+
+.home, .about, .contact {
+  display: ;
+
   font-size: 20px;
-  color:rgb(58, 57, 57)
+  color: #ececec;
+  
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #ececec;
   color: rgb(58, 57, 57);
   margin: 30px 30px 30px 30px;
 }
 .mission {
-  position: absolute;
+  position: relative;
   width: 500px;
   height: 500px;
   margin-left: 35%;
   margin-right: ;
   margin-bottom: 20%;
-  background-color: beige;
+  background-color: rgba(255, 255, 0, 0.633);
   border-style: solid;
   text-align: center;
   top: 150px;
