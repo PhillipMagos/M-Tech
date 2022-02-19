@@ -33,7 +33,7 @@
 }
 */
 .nav {
-  font-size: 70px;
+
   min-height: 25px;
   width: 100%;
   background-color: rgb(61, 60, 60);
@@ -41,7 +41,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
   grid-template-rows: 1fr;
-  grid-gap: 10px;
+  grid-gap: 60px;
 }
 /*
 nav {
@@ -55,11 +55,13 @@ nav {
 */
 
 .home, .about, .contact {
-  display: ;
-
-  font-size: 20px;
+  row-gap: 30px;
+  font-size: 30px;
   color: #ececec;
-  
+}
+
+ul {
+  color: #ececec;
 }
 
 body {
