@@ -14,7 +14,6 @@
   font-size: 25px;
   color: #ececec;
 }
-
 #pcs {
   width: 100%;
   height: auto;
@@ -25,7 +24,7 @@
   margin: 0px 0px 0px 0px;
 }
 .item1 {
-  background: rgb(7, 7, 175);
+  background: rgb(2, 2, 108);
   display: grid;
   align-items: center;
   width: 100%;
@@ -33,12 +32,19 @@
   grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 10px;
+  margin: auto;
 }
-
+#ourservices {
+  color: #ececec;
+  margin: auto;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 ul {
   color: #ececec;
 }
-
 body {
   background-image: url("Images/graphicbackground.jpg");
   z-index: 4;
@@ -58,7 +64,6 @@ body {
   text-align: center;
   top: 150px;
 }
-
 .footer {
   background-color: rgb(61, 60, 60);
   position: fixed;
